@@ -1,16 +1,15 @@
-import { createBrowserRouter } from "react-router-dom";
-import { AppLayout } from "../pages/layout";
 
-export const Router = createBrowserRouter([
+import {Routes, Route} from 'react-router-dom'
+import Home from "../pages/home";
 
-    {
-        path:'/',
-        element:<AppLayout/>,
+
+export const Router = ()=>{
+    return (
+        <Routes> 
+            
+            <Route path='/' element={<Home></Home>}></Route>
         
-        children:[
-            {path:'/', element:},
-            {path:'/orders', element:}
-        ],
-    },
-
-])
+            
+        </Routes>
+    )
+}

@@ -1,4 +1,4 @@
-import { RouterProvider } from "react-router-dom"
+import { BrowserRouter } from "react-router-dom"
 
 import { globalCss } from "./styles"
 import { Router } from "./router"
@@ -12,7 +12,9 @@ function App() {
 
   return (
     
-    <RouterProvider router={Router}></RouterProvider>
+    <BrowserRouter>
+      <Router></Router>
+    </BrowserRouter>
     
     
   )

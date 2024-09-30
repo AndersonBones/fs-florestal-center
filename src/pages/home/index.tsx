@@ -1,9 +1,9 @@
-import { MenuContainer, NavContainer, TitleContainer } from "./styles";
+import { HomeContainer, NavContainer, TitleContainer } from "./styles";
 
 
 export default function Menu(){
     return (
-        <MenuContainer>
+        <HomeContainer>
 
             <TitleContainer>
 
@@ -25,6 +25,6 @@ export default function Menu(){
             </NavContainer>
             
 
-        </MenuContainer>
+        </HomeContainer>
     )
 }
