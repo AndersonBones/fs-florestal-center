@@ -21,7 +21,8 @@ export const { config,
                 white: '#fff',
                 yellow_fs:"#F7D21E",
                 green_fs:'#1B7754',
-                green_light:"#79AB2B"
+                green_light:"#79AB2B",
+                white_smoke:"#F5F5F5"
             },
 
             fontSizes: {
